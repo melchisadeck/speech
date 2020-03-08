@@ -2,7 +2,7 @@
 
 This repo contains the speech data from my final year project undertaken in 1987. The code for the project was originally implemented in a combination of BASIC and 6502 Assembler. The code in this repo consists of a re-implementation of the same speech recognition algorithms in K&R C.
 
-The hardware associated with the project consisted of an AD7581, an 8-bit 8-channel ADC by Analog Devices in Co. Limerick. Each channel of the ADC was connected to one channel of an 8-channel bandpass audio frequency analyser. In operation, a 6502-based microcomputer would sample and record the 8-channels of the ADC every 10ms. In this way, the evolution of an utterance's frequency profile over time would be sampled and stored to the microcomputer's RAM.
+The hardware associated with the project consisted of an AD7581, an 8-bit 8-channel ADC by Analog Devices in Co. Limerick. Each channel of the ADC was connected to one channel of an op-amp-based 8-channel audio frequency analyser. In operation, a 6502-based microcomputer would sample and record the 8-channels of the ADC every 10ms. In this way, the evolution of an utterance's frequency profile over time would be sampled and stored to the microcomputer's RAM.
 
 Speech recognition consists of comparing an *unknown* utterance's frequency profile against the 32 known (or *reference*) utterances' frequency profiles stored in RAM to determine the most probable match.
 
