@@ -1,4 +1,4 @@
-# Speech Recognition Binary Data and K&R C Code
+# Speech Recognition Data and K&R C Code
 
 This repo contains the speech data from my final year project completed in 1987. The code for the project was originally implemented in 6502 Assembler for the computationally intensive routines with some BASIC glue code. The code in this repo consists of a re-implementation of the same speech recognition algorithms in K&R C.
 
