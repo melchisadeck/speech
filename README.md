@@ -6,7 +6,7 @@ The hardware associated with the project included an AD7581, an 8-channel 8-bit 
 
 A single vocabulary consists of the 32 county names of Ireland and Northern Ireland arranged as follows: Cork, Down, Mayo, Cavan, Clare, Derry, Kerry, Laois, Louth, Meath, Sligo, Antrim, Armagh, Carlow, Dublin, Galway, Offaly, Tyrone, Donegal, Kildare, Leitrim, Wexford, Wicklow, Kilkenny, Limerick, Longford, Monaghan, Fermanagh, Roscommon, Tipperary, Waterford, Westmeath.
 
-Speech recognition consists of comparing an *unknown* utterance's frequency profile to the 32 known (or *reference*) utterances' frequency profiles stored in RAM to determine the most probable match.
+Speech recognition consists of comparing an *unknown* utterance's frequency profile to the 32 *reference* utterances' frequency profiles stored in RAM to determine the most probable match.
 
 The data in the file speech.d consists of 19 complete vocabularies each with the 32 utterances listed above. The format is 8-bit binary - the first byte in an utterance's data represents the *length* (in 10ms frames) of the utterance and the following *length* * 8 bytes represents the utterance data itself.
 
