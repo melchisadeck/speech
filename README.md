@@ -8,6 +8,6 @@ A single vocabulary consists of the 32 county names of Ireland and Northern Irel
 
 Speech recognition consists of comparing an *unknown* utterance's frequency profile to the 32 known (or *reference*) utterances' frequency profiles stored in RAM to determine the most probable match.
 
-The data in the file speech.d consists of 19 complete vocabularies each with the 32 utterances listed above. The format is 8-bit binary - the first byte in an utterance's data represents the length (in 10ms frames) of the utterance. Therefore, the following length * 8 bytes represents the utterance data itself.
+The data in the file speech.d consists of 19 complete vocabularies each with the 32 utterances listed above. The format is 8-bit binary - the first byte in an utterance's data represents the *length* (in 10ms frames) of the utterance and the following *length* * 8 bytes represents the utterance data itself.
 
 It's a nice illustration of Moore's Law to note that a full run of the speech recognition routines took several days on the 2MHz 6502-based microcomputer, about 3 hours on a PDP-11/70 running 2.11BSD, about 30 minutes on a VAX-11/780 running VAX/VMS and about 3 seconds on a Raspberry Pi 3 Model B.
