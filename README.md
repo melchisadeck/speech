@@ -10,4 +10,4 @@ Speech recognition consists of comparing an *unknown* utterance's frequency prof
 
 The data in the file `speech.d` consists of 19 complete vocabularies each with the 32 utterances listed above. The format is 8-bit binary - the first byte in an utterance's data represents the `length` (in 10ms frames) of the utterance and the following `length*8` bytes represents the utterance data itself.
 
-It's a nice illustration of Moore's Law to note that a single speech recognition run comparing all 576 unknown utterances to the 32 reference utterances took about 4 hours on the 2MHz 6502-based microcomputer, about three hours on a PDP-11/84 minicomputer running 2.11BSD UNIX and about 30 seconds on a Raspberry Pi Model B.
+It's a nice illustration of Moore's Law to note that a single speech recognition run comparing all 576 unknown utterances to the 32 reference utterances took about 4 hours on the 2MHz 6502-based microcomputer, about 3 hours on a PDP-11/84 minicomputer running 2.11BSD UNIX and about 30 seconds on a Raspberry Pi Model B.
