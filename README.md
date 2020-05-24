@@ -1,6 +1,6 @@
 # Speech Recognition Data and K&R C Code
 
-This repo contains an implementation of the speech recognition algorithms and the data from my undergraduate final year project completed in 1987. The code for the project was originally implemented in 6502 Assembler for the audio sampling and computationally intensive functions along with some BASIC glue code. The code in this repo consists of a re-implementation of the speech recognition algorithms in K&R C.
+This repo contains an implementation of the speech recognition algorithms and data from my undergraduate final year project completed in 1987. The code for the project was originally implemented in 6502 Assembler for the audio sampling and computationally intensive functions along with some BASIC glue code. The code in this repo consists of a re-implementation of the speech recognition algorithms in K&R C.
 
 The project hardware was built around the AD7581, an 8-channel 8-bit ADC from Analog Devices in Co. Limerick. Each ADC channel of the AD7581 was connected to one channel of an op-amp-based 8-channel audio frequency analyser. The 8-channel audio frequency analyser had 8 bandpass channels centred on frequencies 250Hz, 420Hz, 630Hz, 900Hz, 1230Hz, 1620Hz, 2260Hz and 2830Hz with -3db passbands chosen to coincide with the -3db passband of the adjacent channels. These frequencies and passbands were chosen after careful research to maximise the intelligibility of the sampled speech audio signal.
 
