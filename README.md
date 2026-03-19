@@ -1,6 +1,6 @@
 # Speech Recognition Data and K&R C Code
 
-This repo contains the speech data and an implementation of the speech recognition algorithms from my undergraduate final year project completed in 1987.
+This repo contains the speech data and an implementation of the speech recognition algorithms from my undergraduate final year project completed last century.
 
 The project hardware consisted of a lab-built [op amp](https://en.wikipedia.org/wiki/Operational_amplifier)-based 8-channel audio frequency analyser linked to a [BBC Micro](https://en.wikipedia.org/wiki/BBC_Micro) over the 1MHz bus. The time-critical audio sampling routines and computationally demanding speech recognition functions were implemented in [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) Assembly orchestrated by some BASIC glue code. The code in this repo is a re-implementation of the speech recognition routines in K&R C and should compile and run on any UNIX-like or Linux system.
 
